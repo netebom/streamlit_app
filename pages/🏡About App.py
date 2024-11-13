@@ -10,10 +10,10 @@ def home():
     st.markdown("<h1 style='text-align: center; color: #4CAF50;'>Customer Churn Prediction App</h1>", unsafe_allow_html=True)
     
     # Add a subtitle
-    st.markdown("<h3 style='text-align: center; color: #f39c12;'>Designed by Team Fiji</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center; color: #f39c12;'>Designed by Etebom</h3>", unsafe_allow_html=True)
     
     # Add a nice visual (banner image or illustration)
-    st.image("Customer-churn-prediction.webp", use_column_width=True, caption="Predicting customer churn to retain valuable customers.")
+    st.image("Customer-churn-prediction.webp", use_container_width=True, caption="Predicting customer churn to retain valuable customers.")
 
     # Provide a brief introduction or description of the app
     st.write("""
@@ -63,9 +63,9 @@ st.markdown("""
 """)
 
 # Contact and Github Repository
-st.subheader("Need Help or Collaboration?")
+st.subheader("Need Help")
 st.markdown("""
-For collaboration or support, please contact Team Fiji.
+For support, please contact
 """)
-if st.button("Visit Our GitHub Repository"):
-    st.markdown("[GitHub Repository](https://github.com/your-repo-link)")
+if st.button("Visit My GitHub Repository"):
+    st.markdown("[GitHub Repository](https://github.com/netebom/streamlit_app)")
