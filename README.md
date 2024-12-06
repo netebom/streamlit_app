@@ -93,4 +93,4 @@ This repository now includes a Streamlit app that allows you to interactively ex
 Contributions are welcome!
 
 ## Acknowledgments
-Thanks to AzubiAfrica for the opportunity to learn from the very best instructors.
+Thanks to AzubiAfrica for the opportunity to learn from the very best instructors
